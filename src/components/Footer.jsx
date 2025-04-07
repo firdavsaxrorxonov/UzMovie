@@ -21,8 +21,8 @@ function Footer() {
         </div>
         <div className='flex flex-col items-start gap-2'>
           <strong className='mb-1'>Companiy</strong>
-          <Link className='hover:text-[#1AB196] underline transition duration-150'>Bog'lanish</Link>
-          <Link className='hover:text-[#1AB196] underline transition duration-150'>Yangiliklar</Link>
+          <a href='tel:+998500070141' className='hover:text-[#1AB196] underline transition duration-150'>Bog'lanish</a>
+          <a href='https://t.me/axrorxonovdev' className='hover:text-[#1AB196] underline transition duration-150'>Yangiliklar</a>
           <Link className='hover:text-[#1AB196] transition duration-150'>Manzilimiz (frilanser)</Link>
         </div>
         <div className='flex flex-col items-start gap-2'>

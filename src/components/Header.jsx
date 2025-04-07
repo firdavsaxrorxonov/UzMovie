@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <>
-      <header className='px-10 py-5 fixed w-full backdrop-blur-sm'>
+      <header className='px-10 py-5 fixed z-50 w-full backdrop-blur-sm'>
         <div className='container max-w-[1400px] mx-auto justify-between flex items-center'>
           <div >
             <NavLink  to='/'>
@@ -55,7 +55,7 @@ function Header() {
         </div>
       </header >
 
-      <div className="mobile-header px-10 py-4 fixed md:hidden bottom-0 rounded-tl-xl rounded-tr-xl w-full bg-[#262626]">
+      <div className="mobile-header px-10 py-4 fixed z-50 md:hidden bottom-0 rounded-tl-xl rounded-tr-xl w-full bg-[#262626]">
         <div className="container  max-w-[1400px] mx-auto justify-between  flex items-center">
           <NavLink to='/' className={mobileLinkClass} end>
             <FontAwesomeIcon icon={faHouse} />
