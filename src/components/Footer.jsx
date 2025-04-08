@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
       <div className="container max-w-[1400px] mx-auto flex  justify-between flex-wrap gap-10">
         <div>
           <Link to='/'>
-            <img src={Logo} alt="" width={128} />
+            <img src={Logo} alt="" width={200} />
           </Link>
           <p className='text-sm mt-2 max-w-64 text-[#6B7280] font-semibold'>UzMovie - Maroqli hordiq tilaymiz! Eng yangi kino, serial va animelar!</p>
         </div>

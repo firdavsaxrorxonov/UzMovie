@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Qor Malikasi 1",
+    "poster": "https://s3.beelinetv.uz/buz-production/2c53fe98288ec74b66d8.jpg",
+    "ageLimit": 6,
+    "category": "Multfilm"
+  },
+  {
+    "id": 2,
+    "title": "Moana 2",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/7/73/Moana_2_poster.jpg",
+    "ageLimit": 6,
+    "category": "Multfilm"
+  },
+  {
+    "id": 3,
+    "title": "Kung Fu Panda 1",
+    "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/a9c4698d-7eea-4fe8-8624-4c536c09f7fd/220x330",
+    "ageLimit": 6,
+    "category": "Multfilm"
+  },
+  {
+    "id": 4,
+    "title": "Nimona",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/f/f5/Nimona_poster.png",
+    "ageLimit": 11,
+    "category": "Multfilm"
+  },
+  {
+    "id": 5,
+    "title": "Rick va Morti 1-Fasl",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMeUzcg4LjfL4Fg0pn-Q6evNgedzM8mHlrBA&s",
+    "ageLimit": 18,
+    "category": "Multfilm"
+  },
+  {
+    "id": 6,
+    "title": "Kingsman: Maxfiy Xizmat",
+    "poster": "https://files.itv.uz/uploads/content/poster/2024/12/06//ac5cc4e9ac17299d588d3af9cda56b6c-q-700x1002.jpeg",
+    "ageLimit": 16,
+    "category": "Xorij"
+  },
+  {
+    "id": 7,
+    "title": "Garri Potter 4",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_.jpg",
+    "ageLimit": 13,
+    "category": "Xorij"
+  },
+  {
+    "id": 8,
+    "title": "Garri Potter 2",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoU6-uT84lQK0emjj2Qgv_a20O6HVjqKVJig&s",
+    "ageLimit": 8,
+    "category": "Xorij"
+  },
+  {
+    "id": 9,
+    "title": "Garri Potter 3",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAbGKRh_OLndZL-wGwTw6rwgq6Fac7_pRZNw&s",
+    "ageLimit": 12,
+    "category": "Xorij"
+  },
+  {
+    "id": 10,
+    "title": "Oppenheimer",
+    "poster": "https://upload.wikimedia.org/wikipedia/uz/thumb/4/4a/Oppenheimer_%28film%29.jpg/250px-Oppenheimer_%28film%29.jpg",
+    "ageLimit": 16,
+    "category": "Xorij"
+  }
+]

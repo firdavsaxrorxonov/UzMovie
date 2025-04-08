@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faHouse, faBookmark, faFilm } from '@fortawesome/free-solid-svg-icons'
 
@@ -26,7 +26,7 @@ function Header() {
         <div className='container max-w-[1400px] mx-auto justify-between flex items-center'>
           <div >
             <NavLink  to='/'>
-              <img className='w-32' src={Logo} alt="Logo" />
+              <img src={Logo} alt="Logo" width={200} />
             </NavLink>
           </div>
           <nav className='flex items-center gap-12'>
