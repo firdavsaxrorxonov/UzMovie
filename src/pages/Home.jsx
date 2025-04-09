@@ -1,26 +1,47 @@
-// components/Home.jsx
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Carousel from '../components/Carousel';
-import CategorySlider from '../components/CategorySlider';
+import Card from '../components/Card';
+import data from '../../public/movies.json';
 
 function Home() {
-  const [movies, setMovies] = useState([]);
-
-  useEffect(() => {
-    fetch('/movies.json')
-      .then(res => res.json())
-      .then(data => setMovies(data));
-  }, []);
-
-  const multfilms = movies.filter(m => m.category === 'Multfilm');
-  const foreignFilms = movies.filter(m => m.category === 'Xorij');
+  // Kategoriyalarni ajratish
+  const multfilm = data.filter(item => item.category === 'Multfilm');
+  const xorij = data.filter(item => item.category === 'Xorij');
 
   return (
-    <div className='pt-20 min-h-dvh'>
+    <div className='pt-20 min-h-screen'>
       <Carousel />
-      <div className='container max-w-[1400px] mx-auto'>
-        <CategorySlider title="Multfilmlar" movies={multfilms} />
-        <CategorySlider title="Xorij Filmlari" movies={foreignFilms} />
+
+      {/* Multfilm Kategoriyasi */}
+      <div className='max-w-[1400px] mx-auto px-8 py-5 sm:py-20 mb-10'>
+        <h2 className='text-2xl font-bold mb-4'>Multfilm</h2>
+        <div className='flex flex-wrap justify-between items-start gap-x-5 max-[387px]:justify-center sm:gap-x-10 gap-y-16'>
+          {multfilm.map((item) => (
+            <Card
+              key={item.id}
+              title={item.title}
+              poster={item.poster}
+              age={item.ageLimit}
+              className="w-1/4" // Kartalar kengligini belgilash
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Xorij Kategoriyasi */}
+      <div className='max-w-[1400px] px-8 mx-auto py-5 mb-10'>
+        <h2 className='text-2xl font-bold mb-4'>Xorij Filmlari</h2>
+        <div className='flex flex-wrap justify-between items-start gap-x-5 max-[387px]:justify-center sm:gap-x-10 gap-y-16'>
+          {xorij.map((item) => (
+            <Card
+              key={item.id}
+              title={item.title}
+              poster={item.poster}
+              age={item.ageLimit}
+              className="w-1/4" // Kartalar kengligini belgilash
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
