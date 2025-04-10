@@ -12,7 +12,7 @@ function Header() {
     isActive ? 'text-white bg-[#1AB196] w-12 h-12 flex items-center cursor-pointer border-2 border-[#1AB196] justify-center rounded-full transition duration-150 font-semibold text-lg text-center'
 
 
-  : 'w-12 h-12 flex items-center cursor-pointer border-2 border-[#1AB196] bg-transparent justify-center rounded-full hover:bg-[#1AB196] transition duration-150 font-semibold text-[#1AB196] text-lg text-center hover:text-white';
+      : 'w-12 h-12 flex items-center cursor-pointer border-2 border-[#1AB196] bg-transparent justify-center rounded-full hover:bg-[#1AB196] transition duration-150 font-semibold text-[#1AB196] text-lg text-center hover:text-white';
   const navigate = useNavigate()
 
   function handleNavigateSearch() {
@@ -22,10 +22,10 @@ function Header() {
 
   return (
     <>
-      <header className='px-10 py-5 fixed z-50 w-full backdrop-blur-sm'>
+      <header className='px-3 sm:px-10 py-5 fixed z-50 w-full backdrop-blur-sm'>
         <div className='container max-w-[1400px] mx-auto justify-between flex items-center'>
           <div >
-            <NavLink  to='/'>
+            <NavLink to='/'>
               <img src={Logo} alt="Logo" width={200} />
             </NavLink>
           </div>
@@ -55,7 +55,7 @@ function Header() {
         </div>
       </header >
 
-      <div className="mobile-header px-10 py-4 fixed z-50 md:hidden bottom-0 rounded-tl-xl rounded-tr-xl w-full bg-[#262626]">
+      <div className="mobile-header px-3 sm:px-10 py-4 fixed z-50 md:hidden bottom-0 rounded-tl-xl rounded-tr-xl w-full bg-[#262626]">
         <div className="container  max-w-[1400px] mx-auto justify-between  flex items-center">
           <NavLink to='/' className={mobileLinkClass} end>
             <FontAwesomeIcon icon={faHouse} />
