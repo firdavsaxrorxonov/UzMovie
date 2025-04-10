@@ -9,7 +9,7 @@ import Card from './Card';
 
 const SwiperCards = ({ title, items }) => {
   return (
-    <div className='max-w-[1400px] mx-auto  px-3 sm:px-8 py-5 sm:py-20 mb-10'>
+    <div className='max-w-[1400px] mx-auto  px-3 sm:px-8 py-5 sm:py-5 mb-10'>
       <h2 className='text-2xl font-bold mb-4'>{title}</h2>
       <Swiper
         slidesPerView={3}
