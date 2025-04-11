@@ -57,6 +57,10 @@ function Carousel() {
     }
   };
 
+  const style = {
+    boxShadow: '0px -52px 62px -18px rgba(0, 0, 0, 1) inset',
+  };
+
   return (
     <div className="w-full bg-black font-sans h-[250px] sm:h-[300px] md:h-[400px] lg:h-[450px] xl:h-[500px]">
       <SkeletonTheme baseColor="#cfcfcf" highlightColor="#e6e6e6">
