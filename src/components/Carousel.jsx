@@ -85,7 +85,7 @@ function Carousel() {
 
                   <div className="absolute top-20 left-5 max-w-[450px] md:top-40 md:left-15 z-10 text-white">
                     <h1 className="md:text-5xl text-2xl text-shadow-lg font-bold">{image.title}</h1>
-                    <p className="mt-2 text-sm max-w-2xs md:max-w-full md:text-lg">{image.aboutTitle}</p>
+                    <p className="mt-2 text-sm max-w-2xs text-shadow-lg md:max-w-full md:text-lg">{image.aboutTitle}</p>
                     <div className="flex items-center gap-2">
                       <button className="mt-3.5 rounded-lg px-6 sm:px-10 py-2 cursor-pointer bg-[#1AB196] border-2 border-[#1AB196] transition duration-200 hover:border-[#139a7d] text-white hover:bg-[#139a7d] text-sm md:text-xl font-semibold">
                         {image.buttonText}
